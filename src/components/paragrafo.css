@@ -1,0 +1,14 @@
+.textBox{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 500px;
+    min-height: 150px;
+    padding: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
