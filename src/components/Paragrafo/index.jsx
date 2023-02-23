@@ -1,4 +1,4 @@
-import './paragrafo.css'
+import './index.css'
 
 export function Paragrafo({children, color}) {
     return (

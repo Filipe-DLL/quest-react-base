@@ -1,7 +1,7 @@
-import './App.css';
+import './index.css';
 
 import { Paragrafo } from './components/Paragrafo';
-import { Button } from './components/Button';
+import { AlertButton } from './components/AlertButton';
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
         <Paragrafo color={'#8c61ff'} >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste voluptatum et, voluptates, perferendis magnam sit quos repellendus earum corporis totam saepe accusantium, incidunt culpa accusamus? Id officia ipsa explicabo.
         </Paragrafo>
-        <Button>
+        <AlertButton>
             Clique Aqui
-        </Button>
+        </AlertButton>
       </div>
     </div>
   );
